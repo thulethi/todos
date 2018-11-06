@@ -1,9 +1,10 @@
 example_id                                        | status | run_time        |
 ------------------------------------------------- | ------ | --------------- |
-./spec/features/user_completes_todo_spec.rb[1:1]  | passed | 0.07655 seconds |
-./spec/features/user_creates_todo_spec.rb[1:1]    | passed | 0.42377 seconds |
-./spec/features/user_creates_todo_spec.rb[1:2]    | passed | 0.00303 seconds |
-./spec/features/user_sees_own_todos_spec.rb[1:1]  | passed | 0.0406 seconds  |
-./spec/features/user_visits_homepage_spec.rb[1:1] | passed | 0.00969 seconds |
-./spec/models/todo_spec.rb[1:1]                   | passed | 0.0014 seconds  |
-./spec/models/todo_spec.rb[1:2]                   | passed | 0.00146 seconds |
+./spec/features/user_completes_todo_spec.rb[1:1]  | passed | 0.41489 seconds |
+./spec/features/user_creates_todo_spec.rb[1:1]    | passed | 0.08061 seconds |
+./spec/features/user_creates_todo_spec.rb[1:2]    | passed | 0.00141 seconds |
+./spec/features/user_sees_own_todos_spec.rb[1:1]  | passed | 0.05468 seconds |
+./spec/features/user_visits_homepage_spec.rb[1:1] | passed | 0.01213 seconds |
+./spec/models/todo_spec.rb[1:1]                   | passed | 0.00341 seconds |
+./spec/models/todo_spec.rb[1:2]                   | passed | 0.00406 seconds |
+./spec/models/todo_spec.rb[2:1]                   | passed | 0.0104 seconds  |
