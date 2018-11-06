@@ -4,11 +4,9 @@ RSpec.feature 'User creates todo' do
   scenario 'successfully' do
     sign_in # as a method
 
-    click_on  'Add a new todo'
-    fill_in   'Title',	with: 'Buy bananas'
-    click_on  'Submit'
+    create_todo 'Buy bananas'
 
-    expect(page).to have_css('.todos li', text: 'Buy bananas')
+    expect(page).to display_todo 'Buy bananas'
   end
 
   scenario 'unsuccessfully' do
